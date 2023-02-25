@@ -1,0 +1,74 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.StaticStyles = exports.SegmentStyles = exports.RowStyles = exports.Inputs = exports.SpacePropertyKeys = exports.ComponentLocations = void 0;
+var ComponentLocations;
+(function (ComponentLocations) {
+    ComponentLocations["DEADLINE__COMPONENT"] = "DEADLINE__COMPONENT";
+    ComponentLocations["PURCHASE__COMPONENT"] = "PURCHASE__COMPONENT";
+    ComponentLocations["SIGNATURE__COMPONENT"] = "SIGNATURE__COMPONENT";
+    ComponentLocations["BROKERS__ACKNOWLEDGMENTS"] = "BROKERS__ACKNOWLEDGMENTS";
+})(ComponentLocations = exports.ComponentLocations || (exports.ComponentLocations = {}));
+var SpacePropertyKeys;
+(function (SpacePropertyKeys) {
+    SpacePropertyKeys["BUYER_KEY"] = "Buyer";
+    SpacePropertyKeys["SELLER_KEY"] = "Seller";
+    SpacePropertyKeys["BUYERS_AGENT_KEY"] = "BUYERS_AGENT_KEY";
+    SpacePropertyKeys["SELLERS_AGENT_KEY"] = "SELLERS_AGENT_KEY";
+    SpacePropertyKeys["PROPERTY_KEY"] = "Property";
+})(SpacePropertyKeys = exports.SpacePropertyKeys || (exports.SpacePropertyKeys = {}));
+var Inputs;
+(function (Inputs) {
+    Inputs["TEXT__BOX__SMALL"] = "TEXT__BOX__SMALL";
+    Inputs["CHECKBOX"] = "CHECKBOX";
+    Inputs["FLOATING_CHECKBOX"] = "FLOATING_CHECKBOX";
+    Inputs["RADIO"] = "RADIO";
+    Inputs["ADDRESS_BLOCK"] = "ADDRESS_BLOCK";
+    Inputs["TEXT__BOX__LARGE"] = "TEXT__BOX__LARGE";
+    Inputs["TEXT__BOX__MEDIUM"] = "TEXT__BOX__MEDIUM";
+    Inputs["DATE__BOX"] = "DATE__BOX";
+    Inputs["NUMBER_INPUT"] = "NUMBER_INPUT";
+    Inputs["FULL__LENGTH__PARAGRAPH__2"] = "FULL__LENGTH__PARAGRAPH__2";
+    Inputs["FULL__LENGTH__PARAGRAPH__3"] = "FULL__LENGTH__PARAGRAPH__3";
+    Inputs["FULL__LENGTH__PARAGRAPH__5"] = "FULL__LENGTH__PARAGRAPH__5";
+    Inputs["FULL__LENGTH__PARAGRAPH__4"] = "FULL__LENGTH__PARAGRAPH__4";
+    Inputs["FULL__LENGTH__PARAGRAPH__7"] = "FULL__LENGTH__PARAGRAPH__7";
+    Inputs["FULL__LENGTH__PARAGRAPH__10"] = "FULL__LENGTH__PARAGRAPH__10";
+    Inputs["SKIP__ROW"] = "SKIP__ROW";
+    Inputs["TEXT_REPLACE"] = "TEXT_REPLACE";
+})(Inputs = exports.Inputs || (exports.Inputs = {}));
+var RowStyles;
+(function (RowStyles) {
+    RowStyles["CENTERED"] = "CENTERED";
+    RowStyles["ALIGNED__TOP"] = "ALIGNED__TOP";
+    RowStyles["ALIGNED__RIGHT"] = "ALIGNED__RIGHT";
+    RowStyles["ALIGNED__LEFT"] = "ALIGNED__LEFT";
+    RowStyles["FONT__SIZE__LARGE"] = "FONT__SIZE__LARGE";
+    RowStyles["FONT__SIZE__LARGE__XL"] = "FONT__SIZE__LARGE__XL";
+    RowStyles["ZERO__PADDING__LEFT"] = "ZERO__PADDING__LEFT";
+    RowStyles["ZERO__PADDING__RIGHT"] = "ZERO__PADDING__RIGHT";
+    RowStyles["BORDER__TOP"] = "BORDER__TOP";
+    RowStyles["BORDER__BOTTOM"] = "BORDER__BOTTOM";
+    RowStyles["BORDER__LEFT"] = "BORDER__LEFT";
+    RowStyles["BORDER__RIGHT"] = "BORDER__RIGHT";
+    RowStyles["FORCE_FULL_WIDTH"] = "FORCE_FULL_WIDTH";
+    RowStyles["FIT_WIDTH"] = "FIT_WIDTH";
+    RowStyles["INVISIBLE"] = "INVISIBLE";
+    RowStyles["LINE__HEIGHT__LG"] = "LINE__HEIGHT__LG";
+    RowStyles["INNER_BORDER"] = "INNER_BORDER";
+})(RowStyles = exports.RowStyles || (exports.RowStyles = {}));
+var SegmentStyles;
+(function (SegmentStyles) {
+    SegmentStyles["BOLD__SECTION__TITLES__TO__FIRST__PERIOD"] = "BOLD__SECTION__TITLES__TO__FIRST__PERIOD";
+    SegmentStyles["BOLD__ALL"] = "BOLD__ALL";
+    SegmentStyles["BOLD__NOTE_AND_NOT"] = "BOLD__NOTE_AND_NOT";
+    SegmentStyles["BOLD__UP_TO_BRACKET_AND_NOTE"] = "BOLD__UP_TO_BRACKET_AND_NOTE";
+    SegmentStyles["PATTERN__REPLACE"] = "PATTERN__REPLACE";
+})(SegmentStyles = exports.SegmentStyles || (exports.SegmentStyles = {}));
+var StaticStyles;
+(function (StaticStyles) {
+    StaticStyles["IGNORE_HEADER"] = "IGNORE_HEADER";
+    StaticStyles["IGNORE_TITLE"] = "IGNORE_TITLE";
+    StaticStyles["KEEP__SINGLE"] = "KEEP__SINGLE";
+    StaticStyles["DEADLINE__COMPONENT"] = "DEADLINE__COMPONENT";
+    StaticStyles["LINE_NUMBER_UNSET"] = "LINE_NUMBER_UNSET";
+})(StaticStyles = exports.StaticStyles || (exports.StaticStyles = {}));
