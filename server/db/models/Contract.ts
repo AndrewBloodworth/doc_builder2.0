@@ -149,10 +149,9 @@ contract.prototype.createHash = function () {
 };
 
 contract.prototype.validateSigners = function (hash) {
-  return true;
-  // return this.signers.every((signer: any) =>
-  //   !signer.signed ? true : signer.verifyHash(hash)
-  // );
+  return !!this.signers?.every((signer) =>
+    !signer.signed ? true : signer.verifyHash(hash)
+  );
 };
 
 contract.createInputsHash = function (inputs) {

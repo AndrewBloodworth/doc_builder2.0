@@ -80,10 +80,8 @@ contract.prototype.createHash = function () {
     return crypto_1.default.createHash("sha256").update(key, "binary").digest("base64");
 };
 contract.prototype.validateSigners = function (hash) {
-    return true;
-    // return this.signers.every((signer: any) =>
-    //   !signer.signed ? true : signer.verifyHash(hash)
-    // );
+    var _a;
+    return !!((_a = this.signers) === null || _a === void 0 ? void 0 : _a.every((signer) => !signer.signed ? true : signer.verifyHash(hash)));
 };
 contract.createInputsHash = function (inputs) {
     return crypto_1.default
